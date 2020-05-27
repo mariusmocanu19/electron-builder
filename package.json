@@ -20,7 +20,15 @@
     "appId": "com.github.mariusmocanu19.electron-builder",
     "nsis":{
       "installerSidebar": ""
-         
+#   added build
+      {
+  "build": {
+    "win": {
+      "publish": ["github", "bintray"]
+    }
+  }
+}
+  #added    
     }
   }
 }
